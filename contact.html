@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Momen Al-Qudah through the portfolio contact form." />
+  <title>Contact Momen Al-Qudah | 158600</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Momen Al-Qudah home">
+        <span class="brand-mark">MQ</span>
+        <span class="brand-text">Momen<span>Portfolio</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link active" href="contact.html" aria-current="page">Contact Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact-hero container" aria-labelledby="contact-title">
+      <div>
+        <p class="eyebrow">Start a conversation <span class="eyebrow-line"></span></p>
+        <h1 id="contact-title">Let’s build something <em>meaningful.</em></h1>
+        <p class="hero-lede">Have a question, an idea, or an opportunity to share? Complete the form and I will be happy to hear from you.</p>
+      </div>
+      <div class="contact-badge"><span class="status-dot"></span><strong>Available for connection</strong><span>Software Engineering · JUST</span></div>
+    </section>
+
+    <section class="contact-content container">
+      <aside class="contact-aside" aria-label="Contact information">
+        <p class="eyebrow">Contact details</p>
+        <h2>A clear message is a great place to start.</h2>
+        <p>Whether you want to discuss software engineering, cybersecurity, or future project opportunities, you can reach me directly.</p>
+        <a class="contact-email" href="mailto:armomen21@cit.just.edu.jo">armomen21@cit.just.edu.jo <span aria-hidden="true">↗</span></a>
+        <div class="aside-rule"></div>
+        <p class="small-copy"><strong>Student ID</strong><br />158600</p>
+        <p class="small-copy"><strong>University</strong><br />Jordan University of Science and Technology</p>
+      </aside>
+
+      <div class="form-card">
+        <form id="contactForm" novalidate>
+          <div class="form-intro"><span class="form-label">01 / Contact form</span><h2>Tell me a little about you.</h2></div>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="fullName">Full Name <span aria-hidden="true">*</span></label>
+              <input id="fullName" name="fullName" type="text" autocomplete="name" placeholder="Your full name" />
+              <small class="error-message" id="fullNameError"></small>
+            </div>
+            <div class="form-field">
+              <label for="email">Email Address <span aria-hidden="true">*</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" />
+              <small class="error-message" id="emailError"></small>
+            </div>
+            <div class="form-field full-width">
+              <label for="country">Country <span aria-hidden="true">*</span></label>
+              <input id="country" name="country" type="text" autocomplete="country-name" placeholder="Your country" />
+              <small class="error-message" id="countryError"></small>
+            </div>
+            <div class="form-field full-width">
+              <label for="comments">Comments <span aria-hidden="true">*</span></label>
+              <textarea id="comments" name="comments" rows="6" placeholder="Write your message here..."></textarea>
+              <small class="error-message" id="commentsError"></small>
+            </div>
+          </div>
+          <button class="button button-primary submit-button" type="submit">Submit message <span aria-hidden="true">↗</span></button>
+          <p class="form-note">All fields are required. Your message will be checked before submission.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p><span class="brand-mark small">MQ</span> Momen Al-Qudah · Software Engineering</p>
+      <a href="index.html">Back to home <span aria-hidden="true">↗</span></a>
+    </div>
+  </footer>
+</body>
+</html>

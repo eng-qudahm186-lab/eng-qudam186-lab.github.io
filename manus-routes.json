@@ -1,0 +1,6 @@
+{
+  "routes": [
+    { "path": "/", "title": "Momen Al-Qudah | Portfolio" },
+    { "path": "/contact.html", "title": "Contact Momen Al-Qudah" }
+  ]
+}

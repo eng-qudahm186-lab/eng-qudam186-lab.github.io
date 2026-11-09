@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-labelledby="title desc">
+  <title id="title">Momen Al-Qudah profile placeholder</title>
+  <desc id="desc">A dark professional placeholder with the initials MQ and a note to replace it with a formal photo.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#18263d"/>
+      <stop offset="1" stop-color="#08101d"/>
+    </linearGradient>
+    <linearGradient id="shape" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#c9f6dc"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="900" fill="url(#bg)"/>
+  <circle cx="570" cy="150" r="170" fill="#67e8f9" opacity=".09"/>
+  <circle cx="130" cy="760" r="240" fill="#ff8f70" opacity=".08"/>
+  <path d="M96 142h150M96 177h92" stroke="#67e8f9" stroke-width="5" opacity=".8"/>
+  <g transform="translate(360 410)">
+    <circle r="126" fill="url(#shape)" opacity=".95"/>
+    <circle cy="-32" r="48" fill="#0b1220"/>
+    <path d="M-86 92c8-67 164-67 172 0v30H-86z" fill="#0b1220"/>
+  </g>
+  <text x="360" y="665" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="86" font-weight="800" letter-spacing="-8">MQ</text>
+  <text x="360" y="735" text-anchor="middle" fill="#aab6c7" font-family="Arial, sans-serif" font-size="22" letter-spacing="4">PROFILE PHOTO</text>
+  <text x="360" y="775" text-anchor="middle" fill="#67e8f9" font-family="Arial, sans-serif" font-size="18">Replace before submission</text>
+</svg>
